@@ -1,0 +1,148 @@
+h1 {
+	text-align: center;
+	margin: 0 auto;
+	padding-top:5px;
+}
+body{
+	font-family: Arial;
+	margin: 0;
+	background-image: url("imagini/back_history.jpg");
+}
+p{  
+	text-indent: 50px;
+	letter-spacing: 1px;
+	font-size: 20px;
+	margin-left:5px;
+}
+
+#LeftSide {
+ width: 35%;
+ height:170px;
+ background-color :	#b99c46;
+ float:left;
+ }
+#Center {
+ width:30%;
+ height:170px;
+ text-align: center;
+ vertical-align;
+ color: white;
+ font-size: 25px;
+ background-color: 	#b99c46;
+ float:left;
+ }
+#Rightside {
+ width:35%;
+ height:170px;
+ background-color: 	#b99c46;
+ float:right;
+}
+#MenuExtension{
+	width:100%;
+	display: inline-block;
+	height:100px;
+	background-color: black;
+}
+.button{	
+	border:none;
+	cursor:pointer;
+	color:white;
+	background-color: 	#b99c46;
+	font-size:16px;
+	outline:none;
+	}
+.button span {
+		cursor: pointer;
+		display: inline-block;
+		position: relative;
+		transition: 0.5s;
+	  }
+	  
+.button span:after {
+		content: '\00bb';
+		position: absolute;
+		opacity: 0;
+		top: 0;
+		right: -20px;
+		transition: 0.5s;
+	  }
+	  
+.button:hover span {
+		padding-right: 35px;
+	  }
+	  
+.button:hover span:after {
+		opacity: 1;
+		right: 0;
+	  }
+
+	  .header_navigation_mobile {
+		display: none;
+	  }
+	  .open {
+		display: block;
+	  }
+
+.Menu{
+	height:100px;
+	list-style-type:none;
+	background-color:black;
+	margin-top:4px;
+	padding-left:15px;
+	padding-top:1px;
+	}
+.Menu li{
+	display:inline-block;
+	color: white;
+	float:left;
+	border-color: white;
+	border-width: 2px;
+	border-style: solid;
+	background-color:	#b99c46;
+	padding:20px;
+	cursor:pointer;
+	}
+a:link{
+	text-decoration: none;
+	color:white;
+		
+	}
+a:visited{
+	text-decoration: none;
+	color:white;
+	}
+a:hover{
+	color:black;
+	}
+.boxleft{
+	display: inline-block;
+	margin-left:30px;
+	margin-top:20px;
+	width:60%;
+	height:300px;
+	border: 2px;
+	border-color:black;
+	border-style: solid;
+}
+.boxright{
+	display: inline-block;
+	margin-right:30px;
+	margin-top:20px;
+	width:60%;
+	height:300px;
+	border: 2px;
+	border-color:black;
+	border-style: solid;
+	float:right;
+}
+.boxcenter{
+	display: inline-block;
+	margin-left:10px;
+	margin-right:10px;
+	margin-top:20px;
+	width:30%;
+	height:300px;
+	border: 2px;
+	border-color:black;
+	border-style: solid;
+}

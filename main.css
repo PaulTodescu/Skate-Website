@@ -1,0 +1,109 @@
+h1,h2 {
+	text-align: center;
+}
+body {
+	color: black;
+	font-family: Verdana, Arial, Georgia;
+	background-image: url("imagini/g.jpg");
+ 	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+ 
+}
+#BigBox {
+    width: 1300px;
+	margin: auto;
+	padding: 15px;
+	}
+
+#MenuWrapper{
+	width: 1280px;
+	background-color: black;
+	border-color: #F8E9A1;
+	border-width: 10px;
+	border-style: solid;
+}
+#MenuBar {
+	width:1114px;
+	height:100px;
+	display: inline-block;
+	background-color: black;
+	}
+#MenuDropDown{
+	width:160px;
+	display: inline-block;
+	height:100px;
+	background-color: black;
+}
+
+
+.Menu{
+	list-style-type:none;
+	background-color:black;
+	margin-top:4px;
+	padding-left:15px;
+	padding-top:1px;
+	}
+.Menu li{
+	display:inline-block;
+	color: white;
+	float:left;
+	border-color: white;
+	border-width: 2px;
+	border-style: solid;
+	background-color:rgb(219, 202, 113);
+	padding:20px;
+	cursor:pointer;
+	}
+#header { 
+    height:100px;
+	background-color: #F8E9A1;
+	font-family: cursive;
+  	text-align: center;
+	color:black;
+	padding:20px;
+	}
+#Separator {
+    height:40px;
+	background-color:black;
+	}
+#LeftSide {
+   	width: 30%;
+	background-color : #F8E9A1;
+	min-height:400px;
+	float:left;
+	}
+#Center {
+    width:40%;
+	background-color: #F8E9A1;
+	min-height:400px;
+	float:left;
+	}
+#Rightside {
+	width:30%;
+	background-color :#F8E9A1;
+	min-height:400px;
+	float:right;
+}
+#Down {
+    background-color :black;
+	height:40px;
+	color:#FFF;
+	text-align:center;
+	clear:both;
+	padding-top:1px;
+	}
+
+
+a:link{
+	text-decoration: none;
+	color:white;
+	
+}
+a:visited{
+	text-decoration: none;
+	color:white;
+}
+a:hover{
+	color:black;
+}
